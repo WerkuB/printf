@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
-#include <unistd.h> 
+#include <unistd.h>
 #include <stdarg.h>
 
 int _printf(const char *format, ...);
@@ -44,7 +44,6 @@ char *_itoa(int prmNumber);
  * @c: flag string
  * @f: pointer to func
  */
-
 typedef struct flags_printf
 {
 	char *c;
